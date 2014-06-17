@@ -1,0 +1,21 @@
+{
+	"name": "lucasmichot/mailcatcher",
+	"description": "Enable Mailcatcher for Laravel 4.2",
+	"keyworkds": ["Mail", "Laravel", "Mailcatcher"],
+	"authors": [
+		{
+			"name": "Lucas Michot",
+			"email": "lucas@semalead.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Lucasmichot\\Mailcatcher\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
