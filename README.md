@@ -6,7 +6,7 @@ Enable Mailcatcher for Laravel 4.2.
 The purpose of this package is to allow you to use Mailcatcher server for emails sent by Laravel in pretending mode.
 
 Requirements:
-
+* PHP >= 5.4
 * [Mailcatcher](http://mailcatcher.me)
 
 ## Installing Mailcatcher
@@ -51,4 +51,3 @@ Once this operation completes, the final step is to add the service provider. Op
 
 ## TODO
 * [ ] Finish documentation
-
