@@ -23,7 +23,31 @@ brew install brew-gem && brew gem mailcatcher
 
 ## Package installation
 
+Begin by installing this package through Composer. Edit your project's `composer.json` file to require `lucasmichot/mailcatcher`.
 
+```json
+"require-dev": {
+  "lucasmichot/mailcatcher": "dev-master"
+}
+```
+
+Next, update Composer from the Terminal:
+
+```sh
+composer update --dev
+```
+
+You can achieve these operations with this one-liner command :
+
+```sh
+composer require "lucasmichot/mailcatcher:dev-master" --dev
+```
+
+Once this operation completes, the final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
+
+```php
+'Lucasmichot\Mailcatcher\MailcatcherServiceProvider',
+```
 
 ## TODO
 * [ ] Finish documentation
