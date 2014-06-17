@@ -1,7 +1,7 @@
 {
 	"name": "lucasmichot/mailcatcher",
 	"description": "Enable Mailcatcher for Laravel 4.2",
-	"keyworkds": ["Mail", "Laravel", "Mailcatcher"],
+	"keywords": ["Mail", "Laravel", "Mailcatcher"],
 	"authors": [
 		{
 			"name": "Lucas Michot",
@@ -17,5 +17,6 @@
 			"Lucasmichot\\Mailcatcher\\": "src/"
 		}
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"license": "MIT"
 }
