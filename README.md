@@ -7,7 +7,7 @@ The purpose of this package is to allow you to use Mailcatcher server for emails
 
 Requirements:
 
-* Mailcatcher](http://mailcatcher.me)
+* [Mailcatcher](http://mailcatcher.me)
 
 ## Installing Mailcatcher
 
