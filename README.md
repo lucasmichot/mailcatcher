@@ -52,12 +52,11 @@ Once this operation completes, the final step is to add the service provider. Op
 
 **Note**:
 
-If using Ryan Tablada's [Package Installer](https://github.com/rtablada/package-installer), you can simply install this package, without having to update `app/config/app.php`, by typing :
+If you are using Ryan Tablada's [Package Installer](https://github.com/rtablada/package-installer), you can simply install this package, without having to update `app/config/app.php`, by typing :
 
 ```sh
 $ php artisan package:install lucasmichot/mailcatcher
 ```
-
 
 ## TODO
 * [ ] Finish documentation
