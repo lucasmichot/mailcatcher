@@ -1,5 +1,5 @@
 {
 	"providers": [
-		"Lucasmichot\Mailcatcher\MailcatcherServiceProvider"
+		"Lucasmichot\\Mailcatcher\\MailcatcherServiceProvider"
 	]
 }
