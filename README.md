@@ -19,7 +19,7 @@ You can easily install it with this simple command line :
 
 ```sh
 $ brew update && brew upgrade
-$ brew install brew-gem && brew gem mailcatcher
+$ brew install brew-gem && brew gem install mailcatcher
 ```
 
 ## Package installation
